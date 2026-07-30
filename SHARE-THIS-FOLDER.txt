@@ -1,6 +1,6 @@
 This folder is the shareable, synthetic click-through.
 
-Open mia-dev-rag-demo.html directly in Microsoft Edge or Google Chrome.
+Open index.html directly in Microsoft Edge or Google Chrome.
 No install, login, backend, or network connection is required.
 
 There is no visible demo chrome. Presenter reset: Ctrl+Alt+Shift+R.
@@ -9,6 +9,7 @@ app. Toggle it off for clean captures: Ctrl+Alt+Shift+B.
 
 The screenshots folder contains reference images for the main demo beats.
 
-Do not share the SOURCE or DEVELOPER-EXTRAS folders outside the intended
-Project Mia audience; those folders contain internal implementation material.
+This repository contains only the shareable click-through. Project Mia source,
+ALM scripts and environment inventory are intentionally not included here and
+must not be shared outside the intended Project Mia audience.
 
