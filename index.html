@@ -753,7 +753,1765 @@ Proceed?`)&&await t.forceRetry()},disabled:t.isRetrying,style:{padding:`7px 14px
          (project setup) could not be scrolled to. Fill the slot instead. */
       [data-testid="app-shell"] { height: 100%; min-height: 0 !important; }
       [data-testid="app-shell"] > main { min-height: 0; }
-    `,document.head.append(n),()=>n.remove()},[e]),e?(0,Jn.jsxs)(`div`,{style:{display:`flex`,flexDirection:`column`,height:`100vh`,overflow:`hidden`},children:[(0,Jn.jsx)(sr,{}),(0,Jn.jsx)(`div`,{style:{flex:`1 1 auto`,minHeight:0,overflow:`hidden`},children:(0,Jn.jsx)(CG,{})})]}):(0,Jn.jsx)(CG,{})}(0,b.createRoot)(document.getElementById(`root`)).render((0,Jn.jsx)(DG,{}));</script>
+    `,document.head.append(n),()=>n.remove()},[e]),e?(0,Jn.jsxs)(`div`,{style:{display:`flex`,flexDirection:`column`,height:`100vh`,overflow:`hidden`},children:[(0,Jn.jsx)(sr,{}),(0,Jn.jsx)(`div`,{style:{flex:`1 1 auto`,minHeight:0,overflow:`hidden`},children:(0,Jn.jsx)(CG,{})})]}):(0,Jn.jsx)(CG,{})}
+
+const miaPublishedPlaybooks = [
+  {
+    mia_playbookid: Ue,
+    mia_name: `dynamics-365-finance-success-by-design`,
+    mia_displayname: `Dynamics 365 Finance - Success by Design`,
+    mia_description: `Apply the Success by Design framework to govern, configure, validate, and launch a Dynamics 365 Finance implementation.`,
+    mia_publisher: `Microsoft FastTrack`,
+    mia_layer: 950000010,
+    mia_iconemoji: `F`,
+    mia_phasesjson: JSON.stringify([`Discover`, `Initiate`, `Implement`, `Prepare`, `Operate`]),
+    mia_modulescovered: `General ledger, Accounts payable, Accounts receivable, Budgeting, Fixed assets`,
+    mia_scopetrees: `Record to report, Acquire to dispose, Source to pay, Project to profit`,
+    mia_wavecount: 10,
+    mia_taskcount: 128,
+    mia_sortorder: 1,
+    mia_version: `1.0`,
+    statecode: 0,
+    statuscode: 951000040,
+    mia_yamlbody: [
+      `name: Dynamics 365 Finance - Success by Design`,
+      `version: 1.0`,
+      `publisher: Microsoft FastTrack`,
+      `layer: microsoft`,
+      `modules: [Finance]`,
+      `phases:`,
+      `  - Discover`,
+      `  - Initiate`,
+      `  - Implement`,
+      `  - Prepare`,
+      `  - Operate`,
+      `scope:`,
+      `  - Record to report`,
+      `  - Acquire to dispose`,
+      `  - Source to pay`,
+      `  - Project to profit`,
+      `waves:`,
+      `  - id: FIN-01`,
+      `    name: Discovery and solution strategy`,
+      `    phase: Discover`,
+      `    tasks: 10`,
+      `  - id: FIN-02`,
+      `    name: Program governance and environments`,
+      `    phase: Initiate`,
+      `    tasks: 12`,
+      `  - id: FIN-03`,
+      `    name: Financial foundation`,
+      `    phase: Implement`,
+      `    tasks: 18`,
+      `  - id: FIN-04`,
+      `    name: Record to report`,
+      `    phase: Implement`,
+      `    tasks: 18`,
+      `  - id: FIN-05`,
+      `    name: Source to pay`,
+      `    phase: Implement`,
+      `    tasks: 16`,
+      `  - id: FIN-06`,
+      `    name: Acquire to dispose`,
+      `    phase: Implement`,
+      `    tasks: 12`,
+      `  - id: FIN-07`,
+      `    name: Integrations and data migration`,
+      `    phase: Implement`,
+      `    tasks: 14`,
+      `  - id: FIN-08`,
+      `    name: Testing and readiness`,
+      `    phase: Prepare`,
+      `    tasks: 14`,
+      `  - id: FIN-09`,
+      `    name: Go-live readiness review`,
+      `    phase: Prepare`,
+      `    tasks: 8`,
+      `  - id: FIN-10`,
+      `    name: Operate and optimize`,
+      `    phase: Operate`,
+      `    tasks: 6`
+    ].join(`\n`)
+  },
+  {
+    mia_playbookid: `2f0c7f6d-6ce2-4c3d-9f01-7fb35e760002`,
+    mia_name: `dynamics-365-supply-chain-management-success-by-design`,
+    mia_displayname: `Dynamics 365 Supply Chain Management - Success by Design`,
+    mia_description: `Guide a resilient supply chain implementation from solution strategy through operational readiness using Success by Design reviews and controls.`,
+    mia_publisher: `Microsoft FastTrack`,
+    mia_layer: 950000010,
+    mia_iconemoji: `S`,
+    mia_phasesjson: JSON.stringify([`Discover`, `Initiate`, `Implement`, `Prepare`, `Operate`]),
+    mia_modulescovered: `Procurement, Inventory management, Warehouse management, Master planning, Asset management`,
+    mia_scopetrees: `Procure to pay, Inventory to deliver, Order to cash, Plan to produce`,
+    mia_wavecount: 11,
+    mia_taskcount: 142,
+    mia_sortorder: 2,
+    mia_version: `1.0`,
+    statecode: 0,
+    statuscode: 951000040,
+    mia_yamlbody: [
+      `name: Dynamics 365 Supply Chain Management - Success by Design`,
+      `version: 1.0`,
+      `publisher: Microsoft FastTrack`,
+      `layer: microsoft`,
+      `modules: [Supply chain management]`,
+      `phases:`,
+      `  - Discover`,
+      `  - Initiate`,
+      `  - Implement`,
+      `  - Prepare`,
+      `  - Operate`,
+      `scope:`,
+      `  - Procure to pay`,
+      `  - Inventory to deliver`,
+      `  - Order to cash`,
+      `  - Plan to produce`,
+      `waves:`,
+      `  - id: SCM-01`,
+      `    name: Discovery and solution strategy`,
+      `    phase: Discover`,
+      `    tasks: 10`,
+      `  - id: SCM-02`,
+      `    name: Supply chain governance`,
+      `    phase: Initiate`,
+      `    tasks: 10`,
+      `  - id: SCM-03`,
+      `    name: Product and inventory foundation`,
+      `    phase: Implement`,
+      `    tasks: 16`,
+      `  - id: SCM-04`,
+      `    name: Procurement and sourcing`,
+      `    phase: Implement`,
+      `    tasks: 14`,
+      `  - id: SCM-05`,
+      `    name: Warehouse operations`,
+      `    phase: Implement`,
+      `    tasks: 18`,
+      `  - id: SCM-06`,
+      `    name: Planning and production`,
+      `    phase: Implement`,
+      `    tasks: 18`,
+      `  - id: SCM-07`,
+      `    name: Sales and fulfillment`,
+      `    phase: Implement`,
+      `    tasks: 14`,
+      `  - id: SCM-08`,
+      `    name: Integrations and migration`,
+      `    phase: Implement`,
+      `    tasks: 14`,
+      `  - id: SCM-09`,
+      `    name: Testing and readiness`,
+      `    phase: Prepare`,
+      `    tasks: 12`,
+      `  - id: SCM-10`,
+      `    name: Go-live readiness review`,
+      `    phase: Prepare`,
+      `    tasks: 8`,
+      `  - id: SCM-11`,
+      `    name: Operate and optimize`,
+      `    phase: Operate`,
+      `    tasks: 8`
+    ].join(`\n`)
+  },
+  {
+    mia_playbookid: `2f0c7f6d-6ce2-4c3d-9f01-7fb35e760003`,
+    mia_name: `dynamics-365-contact-center-success-by-design`,
+    mia_displayname: `Dynamics 365 Contact Center - Success by Design`,
+    mia_description: `Design and launch an AI-first contact center with Success by Design guidance for channels, routing, knowledge, service operations, and adoption.`,
+    mia_publisher: `Microsoft FastTrack`,
+    mia_layer: 950000010,
+    mia_iconemoji: `C`,
+    mia_phasesjson: JSON.stringify([`Discover`, `Initiate`, `Implement`, `Prepare`, `Operate`]),
+    mia_modulescovered: `Dynamics 365 Contact Center, Customer Service, Copilot Studio, Power Platform`,
+    mia_scopetrees: `Case to resolution, Knowledge management, Omnichannel engagement`,
+    mia_wavecount: 9,
+    mia_taskcount: 96,
+    mia_sortorder: 3,
+    mia_version: `1.0`,
+    statecode: 0,
+    statuscode: 951000040,
+    mia_yamlbody: [
+      `name: Dynamics 365 Contact Center - Success by Design`,
+      `version: 1.0`,
+      `publisher: Microsoft FastTrack`,
+      `layer: microsoft`,
+      `modules: [Dynamics 365 Contact Center, Customer Service, Copilot Studio]`,
+      `phases:`,
+      `  - Discover`,
+      `  - Initiate`,
+      `  - Implement`,
+      `  - Prepare`,
+      `  - Operate`,
+      `scope:`,
+      `  - Case to resolution`,
+      `  - Knowledge management`,
+      `  - Omnichannel engagement`,
+      `waves:`,
+      `  - id: CC-01`,
+      `    name: Service discovery and strategy`,
+      `    phase: Discover`,
+      `    tasks: 10`,
+      `  - id: CC-02`,
+      `    name: Governance and channel planning`,
+      `    phase: Initiate`,
+      `    tasks: 10`,
+      `  - id: CC-03`,
+      `    name: Case and knowledge foundation`,
+      `    phase: Implement`,
+      `    tasks: 14`,
+      `  - id: CC-04`,
+      `    name: Voice and digital channels`,
+      `    phase: Implement`,
+      `    tasks: 14`,
+      `  - id: CC-05`,
+      `    name: Unified routing and workforce`,
+      `    phase: Implement`,
+      `    tasks: 12`,
+      `  - id: CC-06`,
+      `    name: Copilot and automation`,
+      `    phase: Implement`,
+      `    tasks: 12`,
+      `  - id: CC-07`,
+      `    name: Integration and migration`,
+      `    phase: Implement`,
+      `    tasks: 10`,
+      `  - id: CC-08`,
+      `    name: Readiness and launch`,
+      `    phase: Prepare`,
+      `    tasks: 8`,
+      `  - id: CC-09`,
+      `    name: Operate and optimize`,
+      `    phase: Operate`,
+      `    tasks: 6`
+    ].join(`\n`)
+  },
+  {
+    mia_playbookid: `2f0c7f6d-6ce2-4c3d-9f01-7fb35e760004`,
+    mia_name: `contoso-consulting-finance-accelerator`,
+    mia_displayname: `Contoso Consulting Finance Accelerator`,
+    mia_description: `A partner-led finance accelerator with preconfigured design workshops, rapid ledger setup, migration templates, and a compressed validation path.`,
+    mia_publisher: `Contoso Consulting`,
+    mia_layer: 950000020,
+    mia_iconemoji: `C`,
+    mia_phasesjson: JSON.stringify([`Assess`, `Accelerate`, `Configure`, `Validate`, `Launch`]),
+    mia_modulescovered: `General ledger, Financial dimensions, Accounts payable, Accounts receivable`,
+    mia_scopetrees: `Record to report, Source to pay, Order to cash`,
+    mia_wavecount: 6,
+    mia_taskcount: 48,
+    mia_sortorder: 4,
+    mia_version: `2.1`,
+    statecode: 0,
+    statuscode: 951000040,
+    mia_yamlbody: [
+      `name: Contoso Consulting Finance Accelerator`,
+      `version: 2.1`,
+      `publisher: Contoso Consulting`,
+      `layer: partner`,
+      `modules: [Finance]`,
+      `phases:`,
+      `  - Assess`,
+      `  - Accelerate`,
+      `  - Configure`,
+      `  - Validate`,
+      `  - Launch`,
+      `scope:`,
+      `  - Record to report`,
+      `  - Source to pay`,
+      `  - Order to cash`,
+      `waves:`,
+      `  - id: CON-01`,
+      `    name: Rapid assessment`,
+      `    phase: Assess`,
+      `    tasks: 6`,
+      `  - id: CON-02`,
+      `    name: Accelerator design workshops`,
+      `    phase: Accelerate`,
+      `    tasks: 8`,
+      `  - id: CON-03`,
+      `    name: Ledger and dimension configuration`,
+      `    phase: Configure`,
+      `    tasks: 12`,
+      `  - id: CON-04`,
+      `    name: Payables and receivables configuration`,
+      `    phase: Configure`,
+      `    tasks: 10`,
+      `  - id: CON-05`,
+      `    name: Migration and business validation`,
+      `    phase: Validate`,
+      `    tasks: 8`,
+      `  - id: CON-06`,
+      `    name: Launch and hypercare`,
+      `    phase: Launch`,
+      `    tasks: 4`
+    ].join(`\n`)
+  }
+];
+
+xt();
+Gn();
+bt.mia_playbooks = miaPublishedPlaybooks;
+Un.mia_playbooks = Ht(miaPublishedPlaybooks);
+
+const miaBlueprintClarificationTaskId = `9c5f41c8-a42a-4b78-9d87-5ac832942c11`;
+const miaBlueprintAttachmentId = `a7d98245-26bd-4771-a738-eac6f072f815`;
+const miaBlueprintClarificationAttachmentId = `69b15845-7f75-4aaf-b187-14f20d9735b8`;
+const miaDimensionsClarificationTaskId = `42c36d3e-3eb0-4acf-9a80-93e226ac8217`;
+const miaChartOfAccountsUrl = `https://finance-uat.operations.dynamics.com/?cmp=USMF&mi=LedgerChartOfAccounts`;
+const miaFinancialDimensionsUrl = `https://finance-uat.operations.dynamics.com/?cmp=USMF&mi=DimensionDetails`;
+const miaBlankTagSuggestedResponse = `Reject blank Financial tag values and return the affected records to the source owner for correction.`;
+const miaCompletedDimensionsResult = `## Financial dimensions and tags configured
+
+Mia applied the business-approved mappings and completed ledger compatibility validation.
+
+### Configuration delivered
+- Department
+- Cost center
+- Business unit
+- Financial tag
+
+### Mapping decisions
+- The approved reference data maps \`SHARED-SVC\` to **Shared Services**.
+- The approved reference data maps \`CORP-ALLOC\` to **Corporate Allocations**.
+- The business decided to reject blank Financial tag values and return them to the source owner.
+
+### Validation
+- All source values now have deterministic handling.
+- Account-structure compatibility was verified.
+- Representative ledger combinations passed validation.
+- No inferred or unapproved values were introduced.
+
+### Open in Finance UAT
+[Open Financial dimensions in Dynamics 365 Finance](${miaFinancialDimensionsUrl})
+
+**Result:** Financial dimensions and tags are complete. The migration wave is ready for Delivery Architect release.`;
+const miaBlueprintAttachmentContent = `# Finance Solution Blueprint
+
+## Purpose
+Establish the approved design baseline for the Northwind Finance UAT Accelerator.
+
+## Scope
+- General ledger foundation
+- Chart of accounts and account structures
+- Financial dimensions and financial tags
+- Opening-balance migration readiness
+
+## Decisions
+- USMF is the initial legal entity.
+- Department, Cost center, and Business unit are mandatory dimensions.
+- Financial tag exceptions require Delivery Architect approval.
+
+## Validation
+The blueprint was reviewed against the approved Record to report scope and is ready for implementation.
+`;
+
+const miaTaskEnhancements = {
+  [dt]: {
+    skillName: `document-grounded-project-discovery`,
+    result: `## Discovery package completed
+
+Reviewed **5 customer artifacts** and produced a traceable implementation baseline.
+
+### Outcomes
+- Identified **18 finance requirements**, 6 decisions, and 4 open questions.
+- Linked each requirement to its source document and workshop statement.
+- Confirmed Record to report as the first implementation priority.
+
+### Evidence
+- Finance Transformation SOW
+- Finance Discovery Meeting Notes
+- Finance Workshop Transcript
+- Legacy Chart of Accounts
+- Opening Balance Source Profile
+
+**Result:** Discovery evidence is complete and approved for scope definition.`,
+    steps: [
+      [`Inventory customer artifacts`, `Catalogued 5 source artifacts with owner, date, document type, and relevance.`],
+      [`Extract requirements and decisions`, `Extracted 18 requirements, 6 confirmed decisions, and 4 unresolved questions with source citations.`],
+      [`Publish traceable discovery summary`, `Published the discovery summary and requirements traceability baseline for Delivery Architect review.`]
+    ]
+  },
+  [ft]: {
+    skillName: `scope-from-customer-artifacts`,
+    result: `## Finance implementation scope proposed
+
+Converted the approved discovery requirements into a Business Process Catalog-aligned scope.
+
+### In scope
+- Record to report
+- Chart of accounts and account structures
+- Financial dimensions and financial tags
+- Opening-balance migration for early UAT
+
+### Deferred
+- Fixed assets remains initialized but outside the first implementation wave.
+
+### Quality checks
+- All 18 requirements have a scope disposition.
+- No in-scope requirement is missing an owning process.
+- Open questions are retained in the decision log.
+
+**Result:** Scope is ready for solution blueprint development.`,
+    steps: [
+      [`Map requirements to business processes`, `Mapped all 18 requirements to Record to report and related finance process areas.`],
+      [`Assess scope gaps and assumptions`, `Documented 4 assumptions and deferred Fixed assets pending customer confirmation.`],
+      [`Publish the scope proposal`, `Published the scoped process list, rationale, exclusions, and traceability links.`]
+    ]
+  },
+  [pt]: {
+    skillName: `finance-solution-blueprint`,
+    result: `## Finance solution blueprint published
+
+Created the implementation design baseline and packaged the decisions required to begin configuration.
+
+### Blueprint contents
+- Legal entity and ledger foundation
+- Chart of accounts and account structures
+- Financial dimensions and tag governance
+- Integration and opening-balance migration boundaries
+- Environment, testing, and release assumptions
+
+### Deliverables
+- Finance Solution Blueprint
+- Scope register
+- Architecture decision log
+- Migration readiness checklist
+
+### Review
+The Delivery Architect clarification on acceptance criteria was resolved and closed before publication.
+
+**Result:** Blueprint version 1.0 is approved as the working configuration baseline.`,
+    steps: [
+      [`Assemble the design baseline`, `Consolidated approved scope, requirements, and architecture constraints into the blueprint structure.`],
+      [`Capture decisions and controls`, `Recorded 9 design decisions, 4 assumptions, and the governance controls for financial tags.`],
+      [`Publish the blueprint package`, `Published blueprint version 1.0 with the scope register, decision log, and migration readiness checklist.`]
+    ]
+  },
+  [mt]: {
+    skillName: `finance-chart-of-accounts-configuration`,
+    result: `## Chart of accounts configured
+
+Configured the ledger account foundation in the Finance UAT environment from the approved blueprint.
+
+### Configuration delivered
+- **155 main accounts**
+- **9 account categories**
+- Primary account structure and balancing rules
+- Posting validation for representative journals
+
+### Validation
+- Account ranges reconcile to the approved design workbook.
+- Required balance sheet and profit-and-loss classifications are present.
+- Representative journal validation completed without blocking errors.
+
+### Open in Finance UAT
+[Open Chart of accounts in Dynamics 365 Finance](${miaChartOfAccountsUrl})
+
+**Result:** The chart of accounts is ready for financial dimension configuration.`,
+    steps: [
+      [`Validate the approved account design`, `Validated account ranges, categories, naming conventions, and balancing requirements.`],
+      [`Configure accounts and structures`, `Configured 155 main accounts, 9 categories, and the primary account structure.`],
+      [`Verify ledger posting behavior`, `Validated representative general journal postings and balancing behavior in Finance UAT.`]
+    ]
+  },
+  [ht]: {
+    skillName: `finance-financial-dimensions-configuration`,
+    status: 950000040,
+    result: `## Financial dimension configuration paused
+
+Mia configured the approved dimension framework but stopped before activating Financial tag values because the source workbook contains unmapped data.
+
+### Configuration completed
+- Department
+- Cost center
+- Business unit
+- Financial tag structure
+
+### Missing data detected
+- Approved reference data resolved the \`SHARED-SVC\` and \`CORP-ALLOC\` source values.
+- **3 rows** still have a blank Financial tag with no deterministic handling rule.
+
+Mia did not reject, default, or infer a value without a business decision.
+
+### Open in Finance UAT
+[Open Financial dimensions in Dynamics 365 Finance](${miaFinancialDimensionsUrl})
+
+**Current state:** Waiting for the business to decide how blank Financial tag values should be handled.`,
+    steps: [
+      [`Define dimensions and ownership`, `Confirmed four financial dimensions, value owners, and maintenance responsibilities.`],
+      [`Configure values and account rules`, `Applied approved reference mappings and isolated 3 records with a blank Financial tag.`],
+      [`Validate ledger compatibility`, `Pending the business decision for blank Financial tag values.`]
+    ],
+    pending: true
+  },
+  [Xe]: {
+    skillName: `finance-reference-data-clarification`,
+    result: `## Clarification awaiting Delivery Architect input
+
+Value mapping identified **12 opening-balance rows** that use the legacy financial tag \`SHARED-SVC\`.
+
+### Completed analysis
+- Confirmed the source value is valid and consistently used.
+- Verified that no approved target value exists in the supplied reference data.
+- Isolated the affected rows so deterministic mappings can continue.
+
+### Required action
+Attach the latest financial-tag reference and confirm the approved target value for \`SHARED-SVC\`.
+
+**Current state:** Ready for Delivery Architect response.`,
+    steps: [
+      [`Identify the unresolved reference value`, `Isolated 12 rows that require a target mapping for SHARED-SVC.`],
+      [`Review available supporting material`, `Reviewed the chart of accounts and financial-tag references; no approved target value was found.`],
+      [`Submit the approved target value`, `Pending Delivery Architect confirmation and supporting attachment.`]
+    ],
+    pending: true
+  }
+};
+
+const miaBlueprintClarificationTask = {
+  mia_taskid: miaBlueprintClarificationTaskId,
+  mia_title: `Clarify finance blueprint acceptance criteria`,
+  mia_description: `Confirm the minimum blueprint sections and review evidence required before the finance solution blueprint can be published.`,
+  mia_status: 950000050,
+  mia_type: 950000020,
+  mia_assigneekind: 950000010,
+  mia_assigneerole: 950000010,
+  mia_requiredskills: `finance-solution-blueprint-clarification`,
+  mia_output: `## Clarification closed
+
+The Delivery Architect confirmed that the blueprint must include the ledger foundation, chart of accounts, financial dimensions, migration boundaries, decision log, and validation evidence.
+
+### Resolution
+- Required blueprint sections confirmed.
+- Review evidence and approval owner documented.
+- Publication criteria incorporated into blueprint version 1.0.
+
+**Result:** Clarification completed and closed.`,
+  mia_completedat: `2026-07-08T16:35:00Z`,
+  modifiedon: `2026-07-08T16:35:00Z`,
+  versionnumber: 1,
+  _mia_parenttaskid_value: pt,
+  _mia_waveid_value: ct,
+  mia_waveidname: `Wave 0 - Working documents`,
+  _mia_projectid_value: He,
+  _ownerid_value: Ve,
+  _mia_assigneeuserid_value: Ve
+};
+
+const miaDimensionsClarificationTask = {
+  mia_taskid: miaDimensionsClarificationTaskId,
+  mia_title: `Decide how to handle blank financial tags`,
+  mia_description: `## What you need to do
+1. Decide whether blank Financial tag values should be **rejected**, **defaulted**, or **mapped using a documented rule**.
+
+## Why this is blocked
+The source workbook contains 3 blank Financial tag values. Mia paused rather than assuming how the business wants them handled.
+
+Respond with one short decision, such as: **Reject blank values.**
+
+The Worker resumes automatically once you complete this Task.`,
+  mia_status: 950000020,
+  mia_type: 950000020,
+  mia_assigneekind: 950000020,
+  mia_assigneerole: 950000010,
+  mia_requiredskills: `finance-reference-data-clarification`,
+  mia_skillcontext: `Three source rows have a blank Financial tag. The business must decide whether to reject, default, or map blank values before activation.`,
+  mia_output: `## Blank-value decision required
+
+Mia profiled the Financial tag source values and isolated 3 records with a blank value.
+
+**Current state:** Waiting for the Delivery Architect to choose reject, default, or documented mapping.`,
+  modifiedon: `2026-07-15T19:05:00Z`,
+  versionnumber: 1,
+  _mia_parenttaskid_value: ht,
+  _mia_waveid_value: lt,
+  mia_waveidname: `Finance configuration`,
+  _mia_projectid_value: He,
+  _ownerid_value: Ve,
+  _mia_assigneeuserid_value: Ve
+};
+
+function miaStepStatus(enhancement, index) {
+  if (!enhancement.pending) return 950000130;
+  return index < enhancement.steps.length - 1 ? 950000130 : 950000110;
+}
+
+function miaApplyTaskDetailEnhancements(store) {
+  const taskById = new Map((store.mia_tasks ?? []).map(task => [task.mia_taskid, task]));
+  for (const [taskId, enhancement] of Object.entries(miaTaskEnhancements)) {
+    const task = taskById.get(taskId);
+    if (!task) continue;
+    task.mia_requiredskills = enhancement.skillName;
+    task.mia_output = enhancement.result;
+    if (enhancement.status !== undefined) task.mia_status = enhancement.status;
+  }
+
+  const seededClarificationIds = new Set([
+    miaBlueprintClarificationTaskId,
+    miaDimensionsClarificationTaskId
+  ]);
+  store.mia_tasks = (store.mia_tasks ?? []).filter(
+    task => !seededClarificationIds.has(task.mia_taskid)
+  );
+  store.mia_tasks.push(
+    Ht(miaBlueprintClarificationTask),
+    Ht(miaDimensionsClarificationTask)
+  );
+
+  const enhancedTaskIds = new Set([
+    ...Object.keys(miaTaskEnhancements),
+    miaBlueprintClarificationTaskId,
+    miaDimensionsClarificationTaskId
+  ]);
+  store.mia_tasksteps = (store.mia_tasksteps ?? []).filter(
+    step => !enhancedTaskIds.has(step._mia_taskid_value)
+  );
+
+  const allStepEnhancements = {
+    ...miaTaskEnhancements,
+    [miaBlueprintClarificationTaskId]: {
+      steps: [
+        [`Review proposed acceptance criteria`, `Reviewed the proposed blueprint structure and required implementation evidence.`],
+        [`Confirm required blueprint sections`, `Confirmed ledger, dimensions, migration, decision log, and validation sections.`],
+        [`Close the clarification`, `Recorded the approval criteria and released blueprint version 1.0 for publication.`]
+      ]
+    },
+    [miaDimensionsClarificationTaskId]: {
+      steps: [
+        [`Identify blank source values`, `Isolated 3 rows with a blank Financial tag.`],
+        [`Check for an approved handling rule`, `Confirmed that the project materials do not define how blank Financial tag values should be handled.`],
+        [`Record the business decision`, `Pending a short decision to reject, default, or map blank values.`]
+      ],
+      pending: true
+    }
+  };
+
+  for (const [taskId, enhancement] of Object.entries(allStepEnhancements)) {
+    enhancement.steps.forEach(([title, output], index) => {
+      const status = miaStepStatus(enhancement, index);
+      store.mia_tasksteps.push({
+        mia_taskstepid: `documented-${taskId}-${index + 1}`,
+        mia_title: title,
+        mia_name: `${index + 1}. ${title}`,
+        mia_order: index + 1,
+        mia_status: status,
+        mia_startedat: `2026-07-08T16:${String(10 + index * 5).padStart(2, `0`)}:00Z`,
+        ...(status === 950000130
+          ? { mia_completedat: `2026-07-08T16:${String(14 + index * 5).padStart(2, `0`)}:00Z` }
+          : {}),
+        mia_output: `## ${title}\n\n${output}`,
+        _mia_taskid_value: taskId
+      });
+    });
+  }
+
+  store.annotations = (store.annotations ?? []).filter(
+    annotation =>
+      annotation.annotationid !== miaBlueprintAttachmentId &&
+      annotation.annotationid !== miaBlueprintClarificationAttachmentId
+  );
+  store.annotations.push(
+    {
+      annotationid: miaBlueprintAttachmentId,
+      subject: `Finance Solution Blueprint.md`,
+      filename: `${pt}_Finance Solution Blueprint.md`,
+      mimetype: `text/markdown`,
+      filesize: miaBlueprintAttachmentContent.length,
+      documentbody: btoa(miaBlueprintAttachmentContent),
+      notetext: `Approved finance solution blueprint generated by the finance-solution-blueprint skill.`,
+      isdocument: true,
+      objecttypecode: `mia_project`,
+      _objectid_value: He,
+      createdon: `2026-07-08T16:40:00Z`,
+      createdbyname: `Mia Worker`
+    },
+    {
+      annotationid: miaBlueprintClarificationAttachmentId,
+      subject: `Finance Solution Blueprint.md`,
+      filename: `${miaBlueprintClarificationTaskId}_Finance Solution Blueprint.md`,
+      mimetype: `text/markdown`,
+      filesize: miaBlueprintAttachmentContent.length,
+      documentbody: btoa(miaBlueprintAttachmentContent),
+      notetext: `Blueprint reviewed while resolving the acceptance-criteria clarification.`,
+      isdocument: true,
+      objecttypecode: `mia_project`,
+      _objectid_value: He,
+      createdon: `2026-07-08T16:35:00Z`,
+      createdbyname: `Mia Worker`
+    }
+  );
+}
+
+miaApplyTaskDetailEnhancements(bt);
+miaApplyTaskDetailEnhancements(Un);
+
+function miaResetMigrationWave(store) {
+  const configurationWave = (store.mia_waves ?? []).find(wave => wave.mia_waveid === lt);
+  if (configurationWave) configurationWave.mia_status = 950000020;
+
+  const migrationWave = (store.mia_waves ?? []).find(wave => wave.mia_waveid === ut);
+  if (migrationWave) {
+    migrationWave.mia_status = 950000010;
+    delete migrationWave.__mockW0StartedAt;
+  }
+
+  store.mia_tasks = (store.mia_tasks ?? []).filter(task => task.mia_taskid !== Xe);
+  store.mia_tasksteps = (store.mia_tasksteps ?? []).filter(
+    step => step._mia_taskid_value !== Xe
+  );
+  store.mia_taskdependencies = (store.mia_taskdependencies ?? []).filter(
+    dependency =>
+      dependency._mia_predecessorid_value !== Xe &&
+      dependency._mia_successorid_value !== Xe
+  );
+
+  const migrationTask = (store.mia_tasks ?? []).find(task => task.mia_taskid === Ye);
+  if (migrationTask) {
+    migrationTask.mia_status = 950000010;
+    migrationTask.mia_skillcontext = JSON.stringify({
+      component_key: `opening-balances-general-ledger`,
+      source: `Fabric FinanceUatLakehouse.opening_balances`,
+      target: `GeneralJournalAccountEntryEntity`,
+      legal_entity: `USMF`
+    });
+    migrationTask.mia_output = `Migration is planned and waiting for the Delivery Architect to release the Opening balance migration wave.`;
+    migrationTask.mia_checkpoint = ``;
+    migrationTask.modifiedon = `2026-07-15T19:15:00Z`;
+    delete migrationTask.mia_claimedat;
+    delete migrationTask.mia_startedat;
+    delete migrationTask.mia_completedat;
+  }
+
+  for (const step of store.mia_tasksteps ?? []) {
+    if (step._mia_taskid_value !== Ye) continue;
+    step.mia_status = 950000110;
+    delete step.mia_startedat;
+    delete step.mia_completedat;
+    delete step.mia_output;
+  }
+}
+
+miaResetMigrationWave(bt);
+miaResetMigrationWave(Un);
+
+function miaEnsureSequentialWaveTasks(store) {
+  const tasks = store.mia_tasks ?? [];
+  const taskById = new Map(tasks.map(task => [task.mia_taskid, task]));
+  const topLevelTasksByWave = new Map();
+
+  for (const task of tasks) {
+    const waveId = task._mia_waveid_value;
+    if (!waveId || task._mia_parenttaskid_value) continue;
+    const waveTasks = topLevelTasksByWave.get(waveId) ?? [];
+    waveTasks.push(task);
+    topLevelTasksByWave.set(waveId, waveTasks);
+  }
+
+  const preservedDependencies = (store.mia_taskdependencies ?? []).filter(dependency => {
+    const predecessor = taskById.get(dependency._mia_predecessorid_value);
+    const successor = taskById.get(dependency._mia_successorid_value);
+    return !(
+      predecessor &&
+      successor &&
+      !predecessor._mia_parenttaskid_value &&
+      !successor._mia_parenttaskid_value &&
+      predecessor._mia_waveid_value &&
+      predecessor._mia_waveid_value === successor._mia_waveid_value
+    );
+  });
+
+  for (const [waveId, waveTasks] of topLevelTasksByWave) {
+    for (let index = 1; index < waveTasks.length; index += 1) {
+      const predecessor = waveTasks[index - 1];
+      const successor = waveTasks[index];
+      preservedDependencies.push({
+        mia_taskdependencyid: `sequential-${waveId}-${index}`,
+        mia_name: `${predecessor.mia_title} -> ${successor.mia_title}`,
+        _mia_predecessorid_value: predecessor.mia_taskid,
+        _mia_successorid_value: successor.mia_taskid
+      });
+    }
+  }
+
+  store.mia_taskdependencies = preservedDependencies;
+}
+
+miaEnsureSequentialWaveTasks(bt);
+miaEnsureSequentialWaveTasks(Un);
+
+const miaFetchTasksByWave = Xs;
+Xs = async function(waveId) {
+  const tasks = await miaFetchTasksByWave(waveId);
+  const taskOrder = new Map(
+    (Un.mia_tasks ?? [])
+      .filter(task => task._mia_waveid_value === waveId)
+      .map((task, index) => [task.mia_taskid, index])
+  );
+  return [...tasks].sort(
+    (left, right) =>
+      (taskOrder.get(left.id) ?? Number.MAX_SAFE_INTEGER) -
+      (taskOrder.get(right.id) ?? Number.MAX_SAFE_INTEGER)
+  );
+};
+
+kF();
+
+const miaOriginalTaskTreeBuilder = bF;
+bF = function(tasks) {
+  const roots = miaOriginalTaskTreeBuilder(tasks);
+  const nodesById = new Map();
+  const indexNodes = nodes => {
+    for (const node of nodes) {
+      nodesById.set(node.task.id, node);
+      indexNodes(node.children);
+    }
+  };
+  indexNodes(roots);
+
+  for (const task of tasks) {
+    if (
+      task.parentTaskId &&
+      task.status === `Completed` &&
+      !nodesById.has(task.id)
+    ) {
+      const parent = nodesById.get(task.parentTaskId);
+      if (!parent) continue;
+      const childNode = { task, children: [], hasOpenGate: false };
+      parent.children.push(childNode);
+      nodesById.set(task.id, childNode);
+    }
+  }
+
+  return roots;
+};
+
+function MiaExpandedWaveBranch({
+  wave,
+  tasks,
+  isSelected,
+  selectedTaskId,
+  loading,
+  error,
+  onSelectTask,
+  onSelectWave,
+  onReleaseWave
+}) {
+  const [collapsed, setCollapsed] = EF.useState(false);
+  const roots = bF(tasks);
+  const taskCount = tasks.length || wave.taskCount || 0;
+  const canRelease = !!onReleaseWave && wave.status === `Draft` && taskCount > 0;
+  const statusColor =
+    CF(tasks) ??
+    (wave.status === `Released`
+      ? `#30D158`
+      : wave.status === `Paused`
+        ? `#FF9F0A`
+        : wave.errorCount > 0
+          ? `#FF3B30`
+          : `rgba(60,60,67,0.45)`);
+  const selectWave = () => {
+    if (isSelected && selectedTaskId) {
+      onSelectTask(wave.id, null);
+      return;
+    }
+    onSelectWave?.(wave.id);
+  };
+
+  return DF.jsxs(`div`, {
+    "data-testid": `wave-tree-combined-${wave.id}`,
+    children: [
+      DF.jsxs(`div`, {
+        "data-testid": `wave-tree-combined-header-${wave.id}`,
+        role: `button`,
+        tabIndex: 0,
+        onClick: selectWave,
+        onKeyDown: event => {
+          if (event.key === `Enter` || event.key === ` `) selectWave();
+        },
+        style: {
+          display: `flex`,
+          alignItems: `center`,
+          gap: 8,
+          padding: `10px 12px`,
+          cursor: `pointer`,
+          background: isSelected ? `rgba(0,122,255,0.06)` : `transparent`,
+          borderBottom: `1px solid rgba(0,0,0,0.04)`
+        },
+        children: [
+          DF.jsx(`button`, {
+            type: `button`,
+            "aria-label": collapsed ? `Expand ${wave.name}` : `Collapse ${wave.name}`,
+            "aria-expanded": !collapsed,
+            onClick: event => {
+              event.stopPropagation();
+              setCollapsed(value => !value);
+            },
+            style: {
+              width: 18,
+              height: 18,
+              flex: `0 0 auto`,
+              display: `flex`,
+              alignItems: `center`,
+              justifyContent: `center`,
+              padding: 0,
+              border: `none`,
+              background: `transparent`,
+              color: `rgba(60,60,67,0.55)`,
+              cursor: `pointer`,
+              fontSize: 12,
+              transform: collapsed ? `rotate(0deg)` : `rotate(90deg)`,
+              transition: `transform 0.18s ease`
+            },
+            children: `›`
+          }),
+          DF.jsx(`span`, {
+            "data-testid": `wave-tree-status-${wave.id}`,
+            style: {
+              width: 8,
+              height: 8,
+              borderRadius: `50%`,
+              background: statusColor,
+              flexShrink: 0
+            }
+          }),
+          DF.jsx(`span`, {
+            style: {
+              flex: 1,
+              fontSize: 13,
+              fontWeight: isSelected ? 700 : 600,
+              color: `#1c1c1e`,
+              fontFamily: `'Plus Jakarta Sans', sans-serif`
+            },
+            children: wave.name
+          }),
+          canRelease
+            ? DF.jsx(`button`, {
+                type: `button`,
+                "data-testid": `wave-tree-release-${wave.id}`,
+                onClick: event => {
+                  event.stopPropagation();
+                  onReleaseWave?.(wave.id);
+                },
+                style: {
+                  flexShrink: 0,
+                  padding: `3px 10px`,
+                  borderRadius: 14,
+                  border: `none`,
+                  background: `#007AFF`,
+                  color: `#fff`,
+                  cursor: `pointer`,
+                  fontSize: 10.5,
+                  fontWeight: 700
+                },
+                children: `Release`
+              })
+            : DF.jsx(`span`, {
+                style: {
+                  fontSize: 10,
+                  color: `rgba(60,60,67,0.5)`,
+                  fontFamily: `'JetBrains Mono', monospace`
+                },
+                children: taskCount
+              })
+        ]
+      }),
+      !collapsed &&
+        DF.jsx(`div`, {
+          style: { paddingTop: 4, paddingBottom: 4 },
+          children: loading
+            ? DF.jsx(`div`, {
+                style: {
+                  padding: `10px 20px`,
+                  fontSize: 11,
+                  color: `#007AFF`,
+                  fontFamily: `'JetBrains Mono', monospace`
+                },
+                children: `Loading tasks...`
+              })
+            : error
+              ? DF.jsx(`div`, {
+                  role: `alert`,
+                  style: { padding: `10px 20px`, fontSize: 11, color: `#FF3B30` },
+                  children: error
+                })
+              : roots.length === 0
+                ? DF.jsx(`div`, {
+                    style: { padding: 20, fontSize: 13, color: `rgba(60,60,67,0.6)` },
+                    children: `No tasks in this wave`
+                  })
+                : DF.jsx(`div`, {
+                    style: { marginLeft: 8, borderLeft: `2px solid rgba(0,0,0,0.08)` },
+                    children: roots.map(root =>
+                      DF.jsx(
+                        SF,
+                        {
+                          node: root,
+                          selectedTaskId: isSelected ? selectedTaskId : null,
+                          onSelectTask: taskId => onSelectTask(wave.id, taskId),
+                          nested: true
+                        },
+                        root.task.id
+                      )
+                    )
+                  })
+        })
+    ]
+  });
+}
+
+const miaOriginalWaveTree = TF;
+
+function MiaExpandedWaveTree(props) {
+  const {
+    waves = [],
+    tasks = [],
+    selectedWaveId,
+    selectedTaskId,
+    onSelectTask,
+    onSelectWave,
+    onReleaseWave,
+    phases = []
+  } = props;
+  const [tasksByWave, setTasksByWave] = EF.useState({});
+  const [errorsByWave, setErrorsByWave] = EF.useState({});
+  const [loadingWaveIds, setLoadingWaveIds] = EF.useState(() => new Set());
+  const [pendingSelection, setPendingSelection] = EF.useState(null);
+  const [pendingRelease, setPendingRelease] = EF.useState(null);
+  const [dataVersion, setDataVersion] = EF.useState(0);
+  const waveKey = waves.map(wave => `${wave.id}:${wave.taskCount ?? 0}`).join(`|`);
+  const selectedTaskKey = tasks.map(task => task.id).join(`|`);
+
+  EF.useEffect(() => {
+    const refresh = () => setDataVersion(version => version + 1);
+    window.addEventListener(`mia:data-changed`, refresh);
+    return () => window.removeEventListener(`mia:data-changed`, refresh);
+  }, []);
+
+  EF.useEffect(() => {
+    if (waves.length === 0) return;
+    let cancelled = false;
+    setLoadingWaveIds(new Set(waves.map(wave => wave.id)));
+
+    Promise.all(
+      waves.map(async wave => {
+        try {
+          const waveTasks = await Xs(wave.id);
+          const dependencies = await lc(waveTasks.map(task => task.id));
+          const predecessorsByTask = new Map();
+          for (const dependency of dependencies) {
+            const predecessors = predecessorsByTask.get(dependency.taskId) ?? [];
+            predecessors.push(dependency.predecessorId);
+            predecessorsByTask.set(dependency.taskId, predecessors);
+          }
+          return {
+            waveId: wave.id,
+            tasks: waveTasks.map(task => ({
+              ...task,
+              predecessorIds: predecessorsByTask.get(task.id) ?? []
+            }))
+          };
+        } catch (error) {
+          return {
+            waveId: wave.id,
+            error: error instanceof Error ? error.message : `Failed to load tasks`
+          };
+        }
+      })
+    ).then(results => {
+      if (cancelled) return;
+      const nextTasks = {};
+      const nextErrors = {};
+      for (const result of results) {
+        if (`tasks` in result) nextTasks[result.waveId] = result.tasks;
+        else nextErrors[result.waveId] = result.error;
+      }
+      setTasksByWave(nextTasks);
+      setErrorsByWave(nextErrors);
+      setLoadingWaveIds(new Set());
+    });
+
+    return () => {
+      cancelled = true;
+    };
+  }, [waveKey, dataVersion]);
+
+  EF.useEffect(() => {
+    if (
+      pendingSelection &&
+      pendingSelection.waveId === selectedWaveId &&
+      tasks.some(task => task.id === pendingSelection.taskId)
+    ) {
+      onSelectTask(pendingSelection.taskId);
+      setPendingSelection(null);
+    }
+  }, [pendingSelection, selectedWaveId, selectedTaskKey, onSelectTask]);
+
+  EF.useEffect(() => {
+    if (pendingRelease && pendingRelease === selectedWaveId) {
+      onReleaseWave?.(pendingRelease);
+      setPendingRelease(null);
+    }
+  }, [pendingRelease, selectedWaveId, onReleaseWave]);
+
+  if (waves.length === 0) return DF.jsx(miaOriginalWaveTree, props);
+
+  const selectTask = (waveId, taskId) => {
+    if (waveId === selectedWaveId) {
+      onSelectTask(taskId);
+      return;
+    }
+    setPendingSelection({ waveId, taskId });
+    onSelectWave?.(waveId);
+  };
+
+  const releaseWave = waveId => {
+    if (waveId === selectedWaveId) {
+      onReleaseWave?.(waveId);
+      return;
+    }
+    setPendingRelease(waveId);
+    onSelectWave?.(waveId);
+  };
+
+  const renderWave = wave =>
+    DF.jsx(
+      MiaExpandedWaveBranch,
+      {
+        wave,
+        tasks: wave.id === selectedWaveId ? tasks : tasksByWave[wave.id] ?? [],
+        isSelected: wave.id === selectedWaveId,
+        selectedTaskId,
+        loading: wave.id !== selectedWaveId && loadingWaveIds.has(wave.id),
+        error: errorsByWave[wave.id],
+        onSelectTask: selectTask,
+        onSelectWave,
+        onReleaseWave: releaseWave
+      },
+      wave.id
+    );
+
+  const sortedPhases = [...phases].sort((left, right) => left.order - right.order);
+  const groups = [];
+  for (const phase of sortedPhases) {
+    const phaseWaves = waves.filter(wave => wave.phaseId === phase.id);
+    if (phaseWaves.length > 0) groups.push({ key: phase.id, name: phase.name, waves: phaseWaves });
+  }
+  const ungroupedWaves = waves.filter(
+    wave => !wave.phaseId || !sortedPhases.some(phase => phase.id === wave.phaseId)
+  );
+  if (ungroupedWaves.length > 0) {
+    groups.push({ key: `__none__`, name: ``, waves: ungroupedWaves });
+  }
+
+  return DF.jsx(`div`, {
+    "data-testid": `wave-task-tree-combined`,
+    style: { width: `100%` },
+    children: groups.map(group =>
+      DF.jsxs(
+        `div`,
+        {
+          "data-testid": `wave-phase-group-${group.key}`,
+          children: [
+            group.name &&
+              DF.jsx(`div`, {
+                "data-testid": `wave-phase-header-${group.key}`,
+                style: {
+                  fontSize: 11,
+                  fontWeight: 700,
+                  textTransform: `uppercase`,
+                  letterSpacing: `0.05em`,
+                  color: `#007AFF`,
+                  fontFamily: `'JetBrains Mono', monospace`,
+                  padding: `12px 12px 4px`,
+                  borderBottom: `1px solid rgba(0,122,255,0.12)`
+                },
+                children: group.name
+              }),
+            ...group.waves.map(renderWave)
+          ]
+        },
+        group.key
+      )
+    )
+  });
+}
+
+TF = MiaExpandedWaveTree;
+
+function MiaSequentialTaskFlow({ tasks, onSelectTask }) {
+  if (tasks.length === 0) {
+    return RF.jsx(`div`, {
+      "data-testid": `wave-dag-empty`,
+      style: { padding: 20, color: `rgba(60,60,67,0.6)`, fontSize: 12 },
+      children: `No tasks in this wave`
+    });
+  }
+
+  const flowItems = [];
+  tasks.forEach((task, index) => {
+    if (index > 0) {
+      const predecessor = tasks[index - 1];
+      const isActive =
+        Do(task.status) || (predecessor.status === `Completed` && task.status !== `Completed`);
+      flowItems.push(
+        RF.jsx(
+          `div`,
+          {
+            "aria-label": `${predecessor.name} must complete before ${task.name}`,
+            title: `${predecessor.name} must complete before ${task.name}`,
+            style: {
+              flex: `0 0 42px`,
+              display: `flex`,
+              alignItems: `center`,
+              justifyContent: `center`,
+              color: isActive ? `#007AFF` : `rgba(60,60,67,0.38)`,
+              fontSize: 30,
+              fontWeight: 500,
+              lineHeight: 1
+            },
+            children: `→`
+          },
+          `arrow-${predecessor.id}-${task.id}`
+        )
+      );
+    }
+
+    const state = jF(task.status);
+    const appearance = zF[state];
+    flowItems.push(
+      RF.jsxs(
+        `div`,
+        {
+          "data-testid": `dag-node-${task.id}`,
+          role: `button`,
+          tabIndex: 0,
+          onClick: () => onSelectTask(task.id),
+          onKeyDown: event => {
+            if (event.key === `Enter` || event.key === ` `) onSelectTask(task.id);
+          },
+          style: {
+            width: 220,
+            flex: `0 0 220px`,
+            borderRadius: 12,
+            padding: `13px 15px`,
+            background: `#fff`,
+            cursor: `pointer`,
+            border: `1px solid rgba(0,0,0,0.08)`,
+            borderLeft: `4px solid ${appearance.c}`,
+            boxShadow:
+              state === `running`
+                ? `0 0 0 3px rgba(0,122,255,0.12)`
+                : `0 2px 8px rgba(0,0,0,0.05)`
+          },
+          children: [
+            RF.jsx(`div`, {
+              style: {
+                fontSize: 12.5,
+                fontWeight: 700,
+                lineHeight: 1.25,
+                color: `#1c1c1e`,
+                fontFamily: `'Plus Jakarta Sans', sans-serif`
+              },
+              children: task.name
+            }),
+            RF.jsxs(`div`, {
+              style: {
+                fontSize: 10.5,
+                fontWeight: 700,
+                marginTop: 6,
+                color: appearance.c,
+                display: `inline-flex`,
+                alignItems: `center`,
+                gap: 5
+              },
+              children: [appearance.ic ? `${appearance.ic} ` : ``, appearance.label]
+            })
+          ]
+        },
+        task.id
+      )
+    );
+  });
+
+  return RF.jsx(`div`, {
+    "data-testid": `wave-dag`,
+    style: { overflowX: `auto`, padding: `4px 2px 10px` },
+    children: RF.jsx(`div`, {
+      style: {
+        display: `flex`,
+        alignItems: `center`,
+        minWidth: `max-content`
+      },
+      children: flowItems
+    })
+  });
+}
+
+IF = MiaSequentialTaskFlow;
+
+ZF();
+const miaOriginalTaskHeader = GF;
+
+function miaFormatSkillName(value) {
+  if (!value) return ``;
+  try {
+    const parsed = JSON.parse(value);
+    if (Array.isArray(parsed)) {
+      return parsed
+        .map(skill => `${skill.name ?? ``}${skill.version ? `@${skill.version}` : ``}`)
+        .filter(Boolean)
+        .join(`, `);
+    }
+  } catch {
+    return value;
+  }
+  return value;
+}
+
+function MiaTaskHeaderWithSkill(props) {
+  const skillName = miaFormatSkillName(props.task.skillName);
+  return JF.jsxs(JF.Fragment, {
+    children: [
+      JF.jsx(miaOriginalTaskHeader, props),
+      skillName &&
+        JF.jsxs(`div`, {
+          "data-testid": `info-skill`,
+          style: {
+            alignSelf: `flex-start`,
+            display: `inline-flex`,
+            alignItems: `center`,
+            gap: 7,
+            marginTop: -6,
+            marginBottom: 12,
+            padding: `5px 10px`,
+            borderRadius: 8,
+            background: `rgba(88,86,214,0.08)`,
+            border: `1px solid rgba(88,86,214,0.16)`,
+            color: `#5856D6`,
+            fontSize: 11,
+            fontWeight: 700,
+            fontFamily: `'JetBrains Mono', monospace`
+          },
+          children: [
+            JF.jsx(`span`, {
+              style: { color: `rgba(60,60,67,0.48)`, fontWeight: 600 },
+              children: `skill`
+            }),
+            skillName
+          ]
+        })
+    ]
+  });
+}
+
+GF = MiaTaskHeaderWithSkill;
+
+sI();
+const miaOriginalTaskActions = nI;
+
+function MiaTaskActionsWithExpandedAttachments(props) {
+  EF.useEffect(() => {
+    const frame = window.requestAnimationFrame(() => {
+      const toggle = document.querySelector(
+        `[data-testid="wave-stepper-attachments-toggle"]`
+      );
+      if (toggle?.getAttribute(`aria-expanded`) !== `true`) toggle?.click();
+    });
+    return () => window.cancelAnimationFrame(frame);
+  }, [props.task.id]);
+
+  return DF.jsx(miaOriginalTaskActions, props);
+}
+
+nI = MiaTaskActionsWithExpandedAttachments;
+
+const miaDemoTransitionDelayMs = 3000;
+let miaDimensionsCompletionTimer = null;
+let miaMigrationStartTimer = null;
+
+function miaRefreshDemoData() {
+  window.dispatchEvent(new Event(`mia:data-changed`));
+  window.requestAnimationFrame(() => {
+    const refresh = document.querySelector(`[data-testid="shell-refresh"]`);
+    if (refresh instanceof HTMLElement) refresh.click();
+  });
+}
+
+const miaOriginalChildTaskCompletion = wn;
+wn = function(task, update) {
+  miaOriginalChildTaskCompletion(task, update);
+  if (
+    task.mia_taskid !== miaDimensionsClarificationTaskId ||
+    Number(update.mia_status) !== 950000050
+  ) {
+    return;
+  }
+
+  const resumedAt = new Date().toISOString();
+  const parent = an(`mia_tasks`, ht);
+  if (!parent) return;
+
+  task.mia_output = `## Blank-value handling approved
+
+The Delivery Architect supplied the required business decision for the 3 blank Financial tag values.
+
+### Decision
+Blank Financial tag values are **rejected and returned to the source owner**.
+
+**Result:** Clarification completed. The parent Worker resumed automatically.`;
+  task.mia_completedat = resumedAt;
+  task.modifiedon = resumedAt;
+
+  parent.mia_status = 950000030;
+  parent.mia_output = `## Applying the blank-value decision
+
+Mia received the business response and resumed the Worker.
+
+### In progress
+- Applying the approved handling rule to 3 blank Financial tag records.
+- Revalidating representative main-account and dimension combinations.
+- Completing ledger compatibility checks.
+
+**Current state:** Validation is running.`;
+  parent.mia_startedat = parent.mia_startedat ?? resumedAt;
+  parent.mia_claimedat = resumedAt;
+  parent.modifiedon = resumedAt;
+  parent.versionnumber = Number(parent.versionnumber ?? 0) + 1;
+  delete parent.mia_completedat;
+  parent.mia_checkpoint = JSON.stringify({
+    stage: `Validate Ledger Compatibility`,
+    message: `Applying the approved blank-value rule and rerunning ledger compatibility checks.`,
+    progress: { current: 2, total: 3 }
+  });
+
+  const parentSteps = tn(`mia_tasksteps`)
+    .filter(step => step._mia_taskid_value === ht)
+    .sort((left, right) => Number(left.mia_order) - Number(right.mia_order));
+  const validationStep = parentSteps[parentSteps.length - 1];
+  if (validationStep) {
+    validationStep.mia_status = 950000120;
+    validationStep.mia_startedat = validationStep.mia_startedat ?? resumedAt;
+    delete validationStep.mia_completedat;
+    validationStep.mia_output = `## Ledger compatibility validation running
+
+Applying the approved blank-value decision and validating representative ledger combinations.`;
+  }
+  miaRefreshDemoData();
+
+  if (miaDimensionsCompletionTimer !== null) {
+    window.clearTimeout(miaDimensionsCompletionTimer);
+  }
+  miaDimensionsCompletionTimer = window.setTimeout(() => {
+    miaDimensionsCompletionTimer = null;
+    const activeParent = an(`mia_tasks`, ht);
+    if (!activeParent || activeParent.mia_status !== 950000030) return;
+    const completedAt = new Date().toISOString();
+
+    activeParent.mia_status = 950000050;
+    activeParent.mia_output = miaCompletedDimensionsResult;
+    activeParent.mia_completedat = completedAt;
+    activeParent.modifiedon = completedAt;
+    activeParent.versionnumber = Number(activeParent.versionnumber ?? 0) + 1;
+    delete activeParent.mia_checkpoint;
+    delete activeParent.mia_claimedat;
+
+    const configurationWave = an(`mia_waves`, lt);
+    if (configurationWave) configurationWave.mia_status = 950000030;
+
+    const activeSteps = tn(`mia_tasksteps`)
+      .filter(step => step._mia_taskid_value === ht)
+      .sort((left, right) => Number(left.mia_order) - Number(right.mia_order));
+    for (const step of activeSteps) {
+      step.mia_status = 950000130;
+      step.mia_completedat = step.mia_completedat ?? completedAt;
+    }
+    const completedValidation = activeSteps[activeSteps.length - 1];
+    if (completedValidation) {
+      completedValidation.mia_completedat = completedAt;
+      completedValidation.mia_output = `## Ledger compatibility validated
+
+Applied the approved blank-value handling rule and validated representative main-account and dimension combinations without errors.`;
+    }
+
+    Zt();
+    miaRefreshDemoData();
+  }, miaDemoTransitionDelayMs);
+};
+
+const miaOriginalWaveRelease = Cn;
+Cn = function(wave, update) {
+  miaOriginalWaveRelease(wave, update);
+  if (wave.mia_waveid !== ut || Number(update.mia_status) !== 950000020) return;
+
+  const queuedAt = new Date().toISOString();
+  const migrationTask = an(`mia_tasks`, Ye);
+  if (!migrationTask) return;
+
+  migrationTask.mia_status = 950000020;
+  migrationTask.modifiedon = queuedAt;
+  migrationTask.versionnumber = Number(migrationTask.versionnumber ?? 0) + 1;
+  migrationTask.mia_output = `## Opening-balance migration queued
+
+The Delivery Architect released the wave. The task is Ready and waiting for the Dispatcher to claim it.`;
+  migrationTask.mia_checkpoint = JSON.stringify({
+    stage: `Queued`,
+    message: `Waiting for the Dispatcher to claim the Ready migration task.`,
+    progress: { current: 0, total: 7 }
+  });
+  delete migrationTask.mia_startedat;
+  delete migrationTask.mia_claimedat;
+
+  const migrationSteps = tn(`mia_tasksteps`)
+    .filter(step => step._mia_taskid_value === Ye)
+    .sort((left, right) => Number(left.mia_order) - Number(right.mia_order));
+  migrationSteps.forEach(step => {
+    step.mia_status = 950000110;
+    delete step.mia_startedat;
+    delete step.mia_completedat;
+    delete step.mia_output;
+  });
+  miaRefreshDemoData();
+
+  if (miaMigrationStartTimer !== null) window.clearTimeout(miaMigrationStartTimer);
+  miaMigrationStartTimer = window.setTimeout(() => {
+    miaMigrationStartTimer = null;
+    const activeMigration = an(`mia_tasks`, Ye);
+    if (!activeMigration || activeMigration.mia_status !== 950000020) return;
+    const startedAt = new Date().toISOString();
+
+    activeMigration.mia_status = 950000030;
+    activeMigration.mia_startedat = startedAt;
+    activeMigration.mia_claimedat = startedAt;
+    activeMigration.modifiedon = startedAt;
+    activeMigration.versionnumber = Number(activeMigration.versionnumber ?? 0) + 1;
+    activeMigration.mia_output = `## Opening-balance migration started
+
+The Dispatcher claimed the task. Mia started deterministic field mapping against the approved Finance target.`;
+    activeMigration.mia_checkpoint = JSON.stringify({
+      stage: `Field Mapping`,
+      message: `Reading the staged opening-balance schema and matching fields to the Finance general journal target.`,
+      progress: { current: 1, total: 7 }
+    });
+
+    const activeSteps = tn(`mia_tasksteps`)
+      .filter(step => step._mia_taskid_value === Ye)
+      .sort((left, right) => Number(left.mia_order) - Number(right.mia_order));
+    const fieldMapping = activeSteps[0];
+    if (fieldMapping) {
+      fieldMapping.mia_status = 950000120;
+      fieldMapping.mia_startedat = startedAt;
+      fieldMapping.mia_output = `## Field Mapping started
+
+Mia is comparing the Fabric source schema with the Finance general journal entity.`;
+    }
+
+    Zt();
+    miaRefreshDemoData();
+  }, miaDemoTransitionDelayMs);
+};
+
+const miaReleaseWave = fc;
+fc = async function(waveId) {
+  await miaReleaseWave(waveId);
+  window.requestAnimationFrame(() => {
+    const refresh = document.querySelector(`[data-testid="shell-refresh"]`);
+    if (refresh instanceof HTMLElement) {
+      refresh.click();
+    } else {
+      console.warn(`Could not refresh task data after releasing wave ${waveId}.`);
+    }
+  });
+};
+
+function miaPopulateControlledTextarea(textarea, value) {
+  const valueSetter = Object.getOwnPropertyDescriptor(
+    HTMLTextAreaElement.prototype,
+    `value`
+  )?.set;
+  if (!valueSetter) {
+    console.error(`Could not populate the suggested clarification response.`);
+    return;
+  }
+  valueSetter.call(textarea, value);
+  textarea.dispatchEvent(new Event(`input`, { bubbles: true }));
+  textarea.focus();
+}
+
+function miaInjectSuggestedResponse() {
+  const surface = document.querySelector(`[data-testid="da-input-surface"]`);
+  if (!(surface instanceof HTMLElement)) return;
+  const heading = surface.querySelector(`h2`);
+  if (heading?.textContent !== `Decide how to handle blank financial tags`) return;
+  if (surface.querySelector(`[data-testid="suggested-response-card"]`)) return;
+
+  const textarea = surface.querySelector(`textarea[data-testid="da-feedback"]`);
+  if (!(textarea instanceof HTMLTextAreaElement)) return;
+
+  const card = document.createElement(`div`);
+  card.dataset.testid = `suggested-response-card`;
+  Object.assign(card.style, {
+    display: `flex`,
+    flexDirection: `column`,
+    gap: `10px`,
+    padding: `14px 16px`,
+    borderRadius: `12px`,
+    border: `1px solid rgba(88,86,214,0.22)`,
+    background: `linear-gradient(135deg, rgba(88,86,214,0.08), rgba(0,122,255,0.06))`,
+    boxShadow: `0 4px 14px rgba(88,86,214,0.08)`
+  });
+
+  const label = document.createElement(`div`);
+  label.textContent = `✨ Suggested response`;
+  Object.assign(label.style, {
+    color: `#5856D6`,
+    fontSize: `11px`,
+    fontWeight: `800`,
+    fontFamily: `'JetBrains Mono', monospace`,
+    letterSpacing: `0.04em`,
+    textTransform: `uppercase`
+  });
+
+  const response = document.createElement(`div`);
+  response.textContent = `“${miaBlankTagSuggestedResponse}”`;
+  Object.assign(response.style, {
+    color: `#1c1c1e`,
+    fontSize: `13px`,
+    fontWeight: `600`,
+    lineHeight: `1.5`
+  });
+
+  const useButton = document.createElement(`button`);
+  useButton.type = `button`;
+  useButton.dataset.testid = `use-suggested-response`;
+  useButton.textContent = `Use this response`;
+  Object.assign(useButton.style, {
+    alignSelf: `flex-start`,
+    padding: `8px 13px`,
+    borderRadius: `8px`,
+    border: `none`,
+    background: `#5856D6`,
+    color: `#fff`,
+    cursor: `pointer`,
+    fontSize: `12px`,
+    fontWeight: `700`,
+    fontFamily: `'Plus Jakarta Sans', sans-serif`
+  });
+  useButton.addEventListener(`click`, () => {
+    miaPopulateControlledTextarea(textarea, miaBlankTagSuggestedResponse);
+  });
+
+  card.append(label, response, useButton);
+  const inputGroup = textarea.parentElement;
+  surface.insertBefore(card, inputGroup);
+}
+
+const miaSuggestedResponseObserver = new MutationObserver(miaInjectSuggestedResponse);
+miaSuggestedResponseObserver.observe(document.getElementById(`root`), {
+  childList: true,
+  subtree: true
+});
+window.requestAnimationFrame(miaInjectSuggestedResponse);
+
+let miaResetInProgress = false;
+
+async function miaResetDemo() {
+  if (miaResetInProgress) return;
+  miaResetInProgress = true;
+  try {
+    if (miaDimensionsCompletionTimer !== null) {
+      window.clearTimeout(miaDimensionsCompletionTimer);
+      miaDimensionsCompletionTimer = null;
+    }
+    if (miaMigrationStartTimer !== null) {
+      window.clearTimeout(miaMigrationStartTimer);
+      miaMigrationStartTimer = null;
+    }
+    sessionStorage.setItem(`mia-reset-target`, `home`);
+    await Qt();
+    window.location.reload();
+  } catch (error) {
+    miaResetInProgress = false;
+    console.error(`Could not reset the MIA demo.`, error);
+    window.alert(`The demo could not be reset. Reload the page and try again.`);
+  }
+}
+
+function miaDecorateResetLogo() {
+  const logo = document.querySelector(`[data-testid="shell-logo"]`);
+  if (!(logo instanceof HTMLElement) || logo.dataset.resetEnabled === `true`) return;
+  logo.dataset.resetEnabled = `true`;
+  logo.setAttribute(`role`, `button`);
+  logo.setAttribute(`tabindex`, `0`);
+  logo.setAttribute(`aria-label`, `Reset demo`);
+  logo.setAttribute(`title`, `Reset demo and return to Home`);
+  logo.style.cursor = `pointer`;
+}
+
+document.addEventListener(`click`, event => {
+  const target = event.target;
+  if (!(target instanceof Element) || !target.closest(`[data-testid="shell-logo"]`)) return;
+  event.preventDefault();
+  void miaResetDemo();
+});
+
+document.addEventListener(`keydown`, event => {
+  if (event.key !== `Enter` && event.key !== ` `) return;
+  const target = event.target;
+  if (!(target instanceof Element) || !target.closest(`[data-testid="shell-logo"]`)) return;
+  event.preventDefault();
+  void miaResetDemo();
+});
+
+const miaLogoObserver = new MutationObserver(miaDecorateResetLogo);
+miaLogoObserver.observe(document.getElementById(`root`), { childList: true, subtree: true });
+window.requestAnimationFrame(miaDecorateResetLogo);
+
+function miaOpenResetTarget() {
+  if (sessionStorage.getItem(`mia-reset-target`) !== `home`) return;
+  const startedAt = Date.now();
+  const navigate = () => {
+    const closeWelcome = document.querySelector(`[data-testid="close-welcome"]`);
+    if (closeWelcome instanceof HTMLElement) {
+      closeWelcome.click();
+      window.setTimeout(navigate, 50);
+      return;
+    }
+
+    const projectNavigation = document.querySelector(
+      `nav[aria-label="Project navigation"]`
+    );
+    const homeButton = [...(projectNavigation?.querySelectorAll(`button`) ?? [])].find(
+      button => button.textContent?.includes(`Home`)
+    );
+    if (homeButton instanceof HTMLElement) {
+      homeButton.click();
+      sessionStorage.removeItem(`mia-reset-target`);
+      return;
+    }
+
+    if (Date.now() - startedAt < 5000) {
+      window.setTimeout(navigate, 100);
+    } else {
+      sessionStorage.removeItem(`mia-reset-target`);
+      console.warn(`The demo reset, but the Home page could not be opened automatically.`);
+    }
+  };
+  window.setTimeout(navigate, 100);
+}
+
+Zt();
+miaOpenResetTarget();
+
+const miaPartnerPlaybookStyle = document.createElement(`style`);
+miaPartnerPlaybookStyle.textContent = `
+  [data-testid="playbook-card-2f0c7f6d-6ce2-4c3d-9f01-7fb35e760004"] {
+    border-color: rgba(48, 209, 88, 0.38) !important;
+    box-shadow: 0 4px 20px rgba(48, 209, 88, 0.10) !important;
+  }
+`;
+document.head.append(miaPartnerPlaybookStyle);
+
+(0,b.createRoot)(document.getElementById(`root`)).render((0,Jn.jsx)(DG,{}));</script>
   <style rel="stylesheet" crossorigin>:root{--glass-radius:14px;--glass-radius-sm:10px;--glass-radius-lg:20px}*{box-sizing:border-box;margin:0;padding:0}body{min-height:100vh;font-family:Inter,-apple-system,sans-serif}@keyframes pulse{0%,to{opacity:1}50%{opacity:.4}}@keyframes shimmer{0%{opacity:.3}50%{opacity:.7}to{opacity:.3}}@keyframes spin{0%{transform:rotate(0)}to{transform:rotate(360deg)}}[data-testid^=nav-]{border-radius:var(--glass-radius-sm)!important;transition:all .2s!important}[data-testid^=nav-]:hover{background:#0000000a!important}[data-testid=btn-retry],[data-testid=btn-cancel],[data-testid=btn-submit-create],[data-testid^=compose-]{border-radius:var(--glass-radius-sm)!important;transition:transform .15s!important}[data-testid=btn-retry]:active,[data-testid=btn-cancel]:active,[data-testid=btn-submit-create]:active,[data-testid^=compose-]:active{transform:scale(.96)}[data-testid=view-graph],[data-testid=view-list]{border-radius:var(--glass-radius-sm)!important}[data-testid^=theme-]{transition:transform .15s!important}[data-testid^=theme-]:hover{transform:scale(1.15)}.task-node:hover,[data-testid=task-node]:hover{transform:translateY(-2px)!important;box-shadow:0 10px 36px #00000014,inset 0 1px #ffffffe6!important}::-webkit-scrollbar{width:6px}::-webkit-scrollbar-track{background:0 0}::-webkit-scrollbar-thumb{background:#0000001f;border-radius:3px}::-webkit-scrollbar-thumb:hover{background:#0003}[data-theme=light]{--bg-base:#f2f0ed;--bg-warm:#faf8f5;--glass-bg:#ffffff9e;--glass-bg-hover:#ffffffc7;--glass-border:#ffffffbf;--glass-shadow:#0000000a;--glass-inner-highlight:#ffffffe6;--glass-blur:32px;--accent:#007aff;--accent-light:#007aff1a;--accent-border:#007aff33;--completed:#30d158;--inprogress:#007aff;--ready:#ff9f0a;--failed:#ff3b30;--pending:#00000014;--purple:#af52de;--text-primary:#1c1c1e;--text-secondary:#3c3c43b8;--text-tertiary:#3c3c439e;--text-quaternary:#3c3c433d;--bg-deep:#f2f0ed;--bg-glass:#ffffff9e;--border-glass:#00000014;--accent-glow:#007aff1a;--radius-lg:20px;--radius-md:14px;--radius-sm:10px;--radius-xs:8px;color:var(--text-primary);font-family:Plus Jakarta Sans,-apple-system,BlinkMacSystemFont,sans-serif}[data-theme=light] h1,[data-theme=light] h2,[data-theme=light] h3{font-family:Plus Jakarta Sans,sans-serif;font-weight:700;color:var(--text-primary)!important;text-shadow:none!important}[data-theme=light] p,[data-theme=light] span,[data-theme=light] strong,[data-theme=light] label{text-shadow:none!important}[data-theme=light] code,[data-theme=light] .mono{font-family:JetBrains Mono,Fira Code,monospace;font-weight:400}[data-theme=light] .label{text-transform:uppercase;letter-spacing:.06em;font-family:JetBrains Mono,monospace;font-size:10px;font-weight:700}[data-theme=light] .glass{background:var(--glass-bg);-webkit-backdrop-filter:blur(var(--glass-blur)) saturate(180%);border:1px solid var(--glass-border);box-shadow:0 1px 3px var(--glass-shadow), 0 8px 32px #00000008, inset 0 1px 0 var(--glass-inner-highlight);border-radius:var(--radius-lg)}[data-theme=light] .glass:hover{background:var(--glass-bg-hover)}[data-theme=light] .bg-mesh{z-index:0;background:var(--bg-base);position:fixed;inset:0}[data-theme=light] .bg-mesh:before{content:"";pointer-events:none;background:radial-gradient(60% 50% at 15% 20%,#007aff14,#0000 70%),radial-gradient(50% 40% at 85% 15%,#af52de0f,#0000 60%),radial-gradient(55% 45% at 50% 85%,#30d1580d,#0000 65%),radial-gradient(70% 50%,#ff9f0a0a,#0000 60%);position:absolute;inset:0}[data-theme=light] [data-testid^=playbook-card-]{background:#fff!important}@keyframes slide-up{0%{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}@keyframes fade-in{0%{opacity:0}to{opacity:1}}@keyframes float{0%,to{transform:translateY(0)}50%{transform:translateY(-6px)}}.env-page{color:#1a1a2e;padding:24px;font-family:DM Sans,sans-serif}.env-page-header{justify-content:space-between;align-items:center;margin-bottom:20px;display:flex}.env-page-header h2{color:#1a1a2e;margin:0;font-family:Outfit,sans-serif;font-size:20px;font-weight:600}.env-page-actions{align-items:center;gap:12px;display:flex}.env-toggle{color:var(--text-tertiary);align-items:center;gap:6px;font-size:12.5px;display:flex}.env-toggle input{cursor:pointer;accent-color:var(--accent)}.env-empty{text-align:center;color:var(--text-tertiary);background:#00000005;border-radius:12px;padding:28px;font-style:italic}.env-error{color:#b91c1c;background:#ff453a14;border:1px solid #ff453a40;border-radius:8px;margin-bottom:12px;padding:10px 14px;font-size:13px}.env-flash{color:#15803d;background:#22c55e1a;border:1px solid #22c55e4d;border-radius:8px;justify-content:space-between;align-items:center;gap:12px;margin-bottom:12px;padding:10px 14px;font-size:13px;animation:.22s ease-out env-flash-in;display:flex}.env-flash code{color:#15803d;background:#22c55e26;border-radius:4px;padding:1px 6px;font-family:JetBrains Mono,monospace;font-size:12px}.env-flash-close{color:#15803d;cursor:pointer;opacity:.7;background:0 0;border:none;border-radius:6px;padding:2px 8px;font-size:18px;line-height:1}.env-flash-close:hover{opacity:1;background:#22c55e26}@keyframes env-flash-in{0%{opacity:0;transform:translateY(-4px)}to{opacity:1;transform:translateY(0)}}.env-table{border-collapse:collapse;color:#1a1a2e;width:100%;font-size:13.5px}.env-table th,.env-table td{text-align:left;border-bottom:1px solid #0000000f;padding:10px 12px}.env-table th{color:var(--text-tertiary);text-transform:uppercase;letter-spacing:.4px;font-size:11.5px;font-weight:600}.env-table tr:hover{background:#007aff0a}.env-table code{color:#1a1a2e;background:#0000000a;border-radius:4px;padding:2px 6px;font-family:JetBrains Mono,monospace;font-size:12px}.env-row-retired{opacity:.5}.env-btn-primary{background:var(--accent);color:#fff;border:1px solid var(--accent);cursor:pointer;border-radius:10px;padding:7px 16px;font-family:DM Sans,sans-serif;font-size:13px;font-weight:600;transition:filter .12s}.env-btn-primary:hover{filter:brightness(1.05)}.env-btn-secondary{color:var(--accent);border:1px solid var(--accent-border);cursor:pointer;background:0 0;border-radius:10px;padding:7px 16px;font-family:DM Sans,sans-serif;font-size:13px;font-weight:600}.env-btn-secondary:hover{background:var(--accent-light)}.env-btn-link{color:var(--accent);cursor:pointer;background:0 0;border:none;padding:4px 8px;font-family:DM Sans,sans-serif;font-size:13px}.env-btn-link:hover{text-decoration:underline}.env-btn-danger{color:#c0392b}.env-inline-add{color:var(--accent);cursor:pointer;background:0 0;border:none;align-self:flex-start;margin-top:4px;padding:4px 0;font-family:inherit;font-size:12px}.env-inline-add:hover{text-decoration:underline}.env-btn-primary:disabled,.env-btn-secondary:disabled{opacity:.5;cursor:not-allowed}.env-consent-banner{border-radius:var(--radius-md);-webkit-backdrop-filter:blur(var(--glass-blur)) saturate(180%);background:#ffffff9e;border:1px solid #ffffffbf;justify-content:space-between;align-items:center;gap:14px;margin:0 0 2px;padding:12px 14px;display:flex;box-shadow:0 1px 3px #0000000a,0 8px 32px #00000008,inset 0 1px #ffffffe6}.env-consent-text{color:var(--text-secondary);font-family:Plus Jakarta Sans,sans-serif;font-size:13px;line-height:1.45}.env-consent-text b{color:var(--text-primary);font-weight:800}.env-consent-actions{flex-wrap:wrap;justify-content:flex-end;align-items:center;display:flex}.env-consent-actions select{color:var(--text-primary);font-family:Plus Jakarta Sans,sans-serif;box-shadow:inset 0 1px #ffffffbf}.env-consent-note{color:var(--text-tertiary);font-family:Plus Jakarta Sans,sans-serif;font-size:12.5px}@media (width<=820px){.env-consent-banner{flex-direction:column;align-items:stretch}.env-consent-actions{justify-content:flex-start}}.env-form-modal,.env-checklist-modal{z-index:1000;background:#0006;justify-content:center;align-items:center;display:flex;position:fixed;inset:0}.env-form,.env-checklist{color:#1a1a2e;background:#fff;border:1px solid #00000014;border-radius:16px;width:90%;max-width:580px;max-height:85vh;padding:28px;overflow:auto;box-shadow:0 8px 32px #0000001f}.env-form h3,.env-checklist h3{color:#1a1a2e;margin-top:0;font-family:Outfit,sans-serif;font-size:18px;font-weight:600}.env-form label{color:var(--text-tertiary);flex-direction:column;gap:4px;margin-bottom:12px;font-size:12px;font-weight:500;display:flex}.env-form input[type=text],.env-form input:not([type]){color:#1a1a2e;background:#fff;border:1px solid #0000001f;border-radius:8px;padding:9px 12px;font-family:DM Sans,sans-serif;font-size:13px}.env-form input:focus{border-color:var(--accent);outline:none;box-shadow:0 0 0 3px #007aff1f}.env-checkbox{align-items:center;color:#1a1a2e!important;flex-direction:row!important;gap:8px!important;font-size:13px!important}.env-checkbox input{accent-color:var(--accent)}.env-form-actions{justify-content:flex-end;gap:10px;margin-top:18px;display:flex}.env-checklist ol{color:#1a1a2e;padding-left:22px;font-size:13px;line-height:1.55}.env-checklist code{background:#0000000d;border-radius:4px;padding:1px 6px;font-family:JetBrains Mono,monospace;font-size:12px}.env-checklist button{margin-top:14px}.env-derived-preview{color:#1a1a2e;background:#007aff0f;border:1px dashed #007aff4d;border-radius:10px;margin-top:4px;margin-bottom:8px;padding:10px 14px;font-size:12.5px}.env-derived-preview ul{margin:6px 0 0;padding-left:18px;line-height:1.55}.env-derived-preview code{background:#0000000d;border-radius:4px;padding:1px 6px;font-family:JetBrains Mono,monospace;font-size:12px}.env-advanced-toggle{color:var(--accent);cursor:pointer;text-align:left;background:0 0;border:none;margin:8px 0 0;padding:4px 0;font-family:DM Sans,sans-serif;font-size:13px}.env-advanced-toggle:hover{text-decoration:underline}.env-hint{color:#4b5563;background:#0078d40f;border:1px solid #0078d42e;border-radius:8px;margin:6px 0 4px;padding:8px 12px;font-size:12px;line-height:1.5}.env-hint code{color:#1f2937;overflow-wrap:anywhere;background:#0000000d;border-radius:4px;padding:1px 5px;font-family:Cascadia Code,Consolas,monospace;font-size:11px}.env-advanced{border-left:2px solid #007aff33;margin-top:6px;padding-left:12px}.env-checklist-intro{color:var(--text-secondary);margin:6px 0 12px;font-size:13px}.env-checklist ol li{margin-bottom:10px}.env-status-pill{white-space:nowrap;border-radius:999px;padding:2px 9px;font-family:JetBrains Mono,monospace;font-size:11px;font-weight:600;display:inline-block}.env-status-not_connected{color:#3c3c43bf;background:#3c3c431a}.env-status-verifying{color:#b26a00;background:#ff9f0a24}.env-status-connected{color:#1a7f37;background:#30d15829}.env-status-failed{color:#c0392b;background:#ff3b3024}.react-flow{--xy-edge-stroke-default:#b1b1b7;--xy-edge-stroke-width-default:1;--xy-edge-stroke-selected-default:#555;--xy-connectionline-stroke-default:#b1b1b7;--xy-connectionline-stroke-width-default:1;--xy-attribution-background-color-default:#ffffff80;--xy-minimap-background-color-default:#fff;--xy-minimap-mask-background-color-default:#f0f0f099;--xy-minimap-mask-stroke-color-default:transparent;--xy-minimap-mask-stroke-width-default:1;--xy-minimap-node-background-color-default:#e2e2e2;--xy-minimap-node-stroke-color-default:transparent;--xy-minimap-node-stroke-width-default:2;--xy-background-color-default:transparent;--xy-background-pattern-dots-color-default:#91919a;--xy-background-pattern-lines-color-default:#eee;--xy-background-pattern-cross-color-default:#e2e2e2;background-color:var(--xy-background-color,var(--xy-background-color-default));--xy-node-color-default:inherit;--xy-node-border-default:1px solid #1a192b;--xy-node-background-color-default:#fff;--xy-node-group-background-color-default:#f0f0f040;--xy-node-boxshadow-hover-default:0 1px 4px 1px #00000014;--xy-node-boxshadow-selected-default:0 0 0 .5px #1a192b;--xy-node-border-radius-default:3px;--xy-handle-background-color-default:#1a192b;--xy-handle-border-color-default:#fff;--xy-selection-background-color-default:#0059dc14;--xy-selection-border-default:1px dotted #0059dccc;--xy-controls-button-background-color-default:#fefefe;--xy-controls-button-background-color-hover-default:#f4f4f4;--xy-controls-button-color-default:inherit;--xy-controls-button-color-hover-default:inherit;--xy-controls-button-border-color-default:#eee;--xy-controls-box-shadow-default:0 0 2px 1px #00000014;--xy-edge-label-background-color-default:#fff;--xy-edge-label-color-default:inherit;--xy-resize-background-color-default:#3367d9;direction:ltr}.react-flow.dark{--xy-edge-stroke-default:#3e3e3e;--xy-edge-stroke-width-default:1;--xy-edge-stroke-selected-default:#727272;--xy-connectionline-stroke-default:#b1b1b7;--xy-connectionline-stroke-width-default:1;--xy-attribution-background-color-default:#96969640;--xy-minimap-background-color-default:#141414;--xy-minimap-mask-background-color-default:#3c3c3c99;--xy-minimap-mask-stroke-color-default:transparent;--xy-minimap-mask-stroke-width-default:1;--xy-minimap-node-background-color-default:#2b2b2b;--xy-minimap-node-stroke-color-default:transparent;--xy-minimap-node-stroke-width-default:2;--xy-background-color-default:#141414;--xy-background-pattern-dots-color-default:#777;--xy-background-pattern-lines-color-default:#777;--xy-background-pattern-cross-color-default:#777;--xy-node-color-default:#f8f8f8;--xy-node-border-default:1px solid #3c3c3c;--xy-node-background-color-default:#1e1e1e;--xy-node-group-background-color-default:#f0f0f040;--xy-node-boxshadow-hover-default:0 1px 4px 1px #ffffff14;--xy-node-boxshadow-selected-default:0 0 0 .5px #999;--xy-handle-background-color-default:#bebebe;--xy-handle-border-color-default:#1e1e1e;--xy-selection-background-color-default:#c8c8dc14;--xy-selection-border-default:1px dotted #c8c8dccc;--xy-controls-button-background-color-default:#2b2b2b;--xy-controls-button-background-color-hover-default:#3e3e3e;--xy-controls-button-color-default:#f8f8f8;--xy-controls-button-color-hover-default:#fff;--xy-controls-button-border-color-default:#5b5b5b;--xy-controls-box-shadow-default:0 0 2px 1px #00000014;--xy-edge-label-background-color-default:#141414;--xy-edge-label-color-default:#f8f8f8}.react-flow__background{background-color:var(--xy-background-color-props,var(--xy-background-color,var(--xy-background-color-default)));pointer-events:none;z-index:-1}.react-flow__container{width:100%;height:100%;position:absolute;top:0;left:0}.react-flow__pane{z-index:1}.react-flow__pane.draggable{cursor:grab}.react-flow__pane.dragging{cursor:grabbing}.react-flow__pane.selection{cursor:pointer}.react-flow__viewport{transform-origin:0 0;z-index:2;pointer-events:none}.react-flow__renderer{z-index:4}.react-flow__selection{z-index:6}.react-flow__nodesselection-rect:focus,.react-flow__nodesselection-rect:focus-visible{outline:none}.react-flow__edge-path{stroke:var(--xy-edge-stroke,var(--xy-edge-stroke-default));stroke-width:var(--xy-edge-stroke-width,var(--xy-edge-stroke-width-default));fill:none}.react-flow__connection-path{stroke:var(--xy-connectionline-stroke,var(--xy-connectionline-stroke-default));stroke-width:var(--xy-connectionline-stroke-width,var(--xy-connectionline-stroke-width-default));fill:none}.react-flow .react-flow__edges{position:absolute}.react-flow .react-flow__edges svg{pointer-events:none;position:absolute;overflow:visible}.react-flow__edge{pointer-events:visibleStroke}.react-flow__edge.selectable{cursor:pointer}.react-flow__edge.animated path{stroke-dasharray:5;animation:.5s linear infinite dashdraw}.react-flow__edge.animated path.react-flow__edge-interaction{stroke-dasharray:none;animation:none}.react-flow__edge.inactive{pointer-events:none}.react-flow__edge.selected,.react-flow__edge:focus,.react-flow__edge:focus-visible{outline:none}.react-flow__edge.selected .react-flow__edge-path,.react-flow__edge.selectable:focus .react-flow__edge-path,.react-flow__edge.selectable:focus-visible .react-flow__edge-path{stroke:var(--xy-edge-stroke-selected,var(--xy-edge-stroke-selected-default))}.react-flow__edge-textwrapper{pointer-events:all}.react-flow__edge .react-flow__edge-text{pointer-events:none;-webkit-user-select:none;user-select:none}.react-flow__arrowhead polyline{stroke:var(--xy-edge-stroke,var(--xy-edge-stroke-default))}.react-flow__arrowhead polyline.arrowclosed{fill:var(--xy-edge-stroke,var(--xy-edge-stroke-default))}.react-flow__connection{pointer-events:none}.react-flow__connection .animated{stroke-dasharray:5;animation:.5s linear infinite dashdraw}svg.react-flow__connectionline{z-index:1001;position:absolute;overflow:visible}.react-flow__nodes{pointer-events:none;transform-origin:0 0}.react-flow__node{-webkit-user-select:none;user-select:none;pointer-events:all;transform-origin:0 0;box-sizing:border-box;cursor:default;position:absolute}.react-flow__node.selectable{cursor:pointer}.react-flow__node.draggable{cursor:grab;pointer-events:all}.react-flow__node.draggable.dragging{cursor:grabbing}.react-flow__nodesselection{z-index:3;transform-origin:0 0;pointer-events:none}.react-flow__nodesselection-rect{pointer-events:all;cursor:grab;position:absolute}.react-flow__handle{pointer-events:none;background-color:var(--xy-handle-background-color,var(--xy-handle-background-color-default));border:1px solid var(--xy-handle-border-color,var(--xy-handle-border-color-default));border-radius:100%;width:6px;min-width:5px;height:6px;min-height:5px;position:absolute}.react-flow__handle.connectingfrom{pointer-events:all}.react-flow__handle.connectionindicator{pointer-events:all;cursor:crosshair}.react-flow__handle-bottom{top:auto;bottom:0;left:50%;transform:translate(-50%,50%)}.react-flow__handle-top{top:0;left:50%;transform:translate(-50%,-50%)}.react-flow__handle-left{top:50%;left:0;transform:translate(-50%,-50%)}.react-flow__handle-right{top:50%;right:0;transform:translate(50%,-50%)}.react-flow__edgeupdater{cursor:move;pointer-events:all}.react-flow__pane.selection .react-flow__panel{pointer-events:none}.react-flow__panel{z-index:5;margin:15px;position:absolute}.react-flow__panel.top{top:0}.react-flow__panel.bottom{bottom:0}.react-flow__panel.top.center,.react-flow__panel.bottom.center{left:50%;transform:translate(-15px)translate(-50%)}.react-flow__panel.left{left:0}.react-flow__panel.right{right:0}.react-flow__panel.left.center,.react-flow__panel.right.center{top:50%;transform:translateY(-15px)translateY(-50%)}.react-flow__attribution{background:var(--xy-attribution-background-color,var(--xy-attribution-background-color-default));margin:0;padding:2px 3px;font-size:10px}.react-flow__attribution a{color:#999;text-decoration:none}@keyframes dashdraw{0%{stroke-dashoffset:10px}}.react-flow__edgelabel-renderer{pointer-events:none;-webkit-user-select:none;user-select:none;width:100%;height:100%;position:absolute;top:0;left:0}.react-flow__viewport-portal{-webkit-user-select:none;user-select:none;width:100%;height:100%;position:absolute;top:0;left:0}.react-flow__minimap{background:var(--xy-minimap-background-color-props,var(--xy-minimap-background-color,var(--xy-minimap-background-color-default)))}.react-flow__minimap-svg{display:block}.react-flow__minimap-mask{fill:var(--xy-minimap-mask-background-color-props,var(--xy-minimap-mask-background-color,var(--xy-minimap-mask-background-color-default)));stroke:var(--xy-minimap-mask-stroke-color-props,var(--xy-minimap-mask-stroke-color,var(--xy-minimap-mask-stroke-color-default)));stroke-width:var(--xy-minimap-mask-stroke-width-props,var(--xy-minimap-mask-stroke-width,var(--xy-minimap-mask-stroke-width-default)))}.react-flow__minimap-node{fill:var(--xy-minimap-node-background-color-props,var(--xy-minimap-node-background-color,var(--xy-minimap-node-background-color-default)));stroke:var(--xy-minimap-node-stroke-color-props,var(--xy-minimap-node-stroke-color,var(--xy-minimap-node-stroke-color-default)));stroke-width:var(--xy-minimap-node-stroke-width-props,var(--xy-minimap-node-stroke-width,var(--xy-minimap-node-stroke-width-default)))}.react-flow__background-pattern.dots{fill:var(--xy-background-pattern-color-props,var(--xy-background-pattern-color,var(--xy-background-pattern-dots-color-default)))}.react-flow__background-pattern.lines{stroke:var(--xy-background-pattern-color-props,var(--xy-background-pattern-color,var(--xy-background-pattern-lines-color-default)))}.react-flow__background-pattern.cross{stroke:var(--xy-background-pattern-color-props,var(--xy-background-pattern-color,var(--xy-background-pattern-cross-color-default)))}.react-flow__controls{box-shadow:var(--xy-controls-box-shadow,var(--xy-controls-box-shadow-default));flex-direction:column;display:flex}.react-flow__controls.horizontal{flex-direction:row}.react-flow__controls-button{background:var(--xy-controls-button-background-color,var(--xy-controls-button-background-color-default));border:none;border-bottom:1px solid var(--xy-controls-button-border-color-props,var(--xy-controls-button-border-color,var(--xy-controls-button-border-color-default)));width:26px;height:26px;color:var(--xy-controls-button-color-props,var(--xy-controls-button-color,var(--xy-controls-button-color-default)));cursor:pointer;-webkit-user-select:none;user-select:none;justify-content:center;align-items:center;padding:4px;display:flex}.react-flow__controls-button svg{fill:currentColor;width:100%;max-width:12px;max-height:12px}.react-flow__edge.updating .react-flow__edge-path{stroke:#777}.react-flow__edge-text{font-size:10px}.react-flow__node.selectable:focus,.react-flow__node.selectable:focus-visible{outline:none}.react-flow__node-input,.react-flow__node-default,.react-flow__node-output,.react-flow__node-group{border-radius:var(--xy-node-border-radius,var(--xy-node-border-radius-default));width:150px;color:var(--xy-node-color,var(--xy-node-color-default));text-align:center;border:var(--xy-node-border,var(--xy-node-border-default));background-color:var(--xy-node-background-color,var(--xy-node-background-color-default));padding:10px;font-size:12px}.react-flow__node-input.selectable:hover,.react-flow__node-default.selectable:hover,.react-flow__node-output.selectable:hover,.react-flow__node-group.selectable:hover{box-shadow:var(--xy-node-boxshadow-hover,var(--xy-node-boxshadow-hover-default))}.react-flow__node-input.selectable.selected,.react-flow__node-input.selectable:focus,.react-flow__node-input.selectable:focus-visible,.react-flow__node-default.selectable.selected,.react-flow__node-default.selectable:focus,.react-flow__node-default.selectable:focus-visible,.react-flow__node-output.selectable.selected,.react-flow__node-output.selectable:focus,.react-flow__node-output.selectable:focus-visible,.react-flow__node-group.selectable.selected,.react-flow__node-group.selectable:focus,.react-flow__node-group.selectable:focus-visible{box-shadow:var(--xy-node-boxshadow-selected,var(--xy-node-boxshadow-selected-default))}.react-flow__node-group{background-color:var(--xy-node-group-background-color,var(--xy-node-group-background-color-default))}.react-flow__nodesselection-rect,.react-flow__selection{background:var(--xy-selection-background-color,var(--xy-selection-background-color-default));border:var(--xy-selection-border,var(--xy-selection-border-default))}.react-flow__nodesselection-rect:focus,.react-flow__nodesselection-rect:focus-visible,.react-flow__selection:focus,.react-flow__selection:focus-visible{outline:none}.react-flow__controls-button:hover{background:var(--xy-controls-button-background-color-hover-props,var(--xy-controls-button-background-color-hover,var(--xy-controls-button-background-color-hover-default)));color:var(--xy-controls-button-color-hover-props,var(--xy-controls-button-color-hover,var(--xy-controls-button-color-hover-default)))}.react-flow__controls-button:disabled{pointer-events:none}.react-flow__controls-button:disabled svg{fill-opacity:.4}.react-flow__controls-button:last-child{border-bottom:none}.react-flow__controls.horizontal .react-flow__controls-button{border-bottom:none;border-right:1px solid var(--xy-controls-button-border-color-props,var(--xy-controls-button-border-color,var(--xy-controls-button-border-color-default)))}.react-flow__controls.horizontal .react-flow__controls-button:last-child{border-right:none}.react-flow__resize-control{position:absolute}.react-flow__resize-control.left,.react-flow__resize-control.right{cursor:ew-resize}.react-flow__resize-control.top,.react-flow__resize-control.bottom{cursor:ns-resize}.react-flow__resize-control.top.left,.react-flow__resize-control.bottom.right{cursor:nwse-resize}.react-flow__resize-control.bottom.left,.react-flow__resize-control.top.right{cursor:nesw-resize}.react-flow__resize-control.handle{background-color:var(--xy-resize-background-color,var(--xy-resize-background-color-default));border:1px solid #fff;border-radius:1px;width:5px;height:5px;translate:-50% -50%}.react-flow__resize-control.handle.left{top:50%;left:0}.react-flow__resize-control.handle.right{top:50%;left:100%}.react-flow__resize-control.handle.top{top:0;left:50%}.react-flow__resize-control.handle.bottom{top:100%;left:50%}.react-flow__resize-control.handle.top.left,.react-flow__resize-control.handle.bottom.left{left:0}.react-flow__resize-control.handle.top.right,.react-flow__resize-control.handle.bottom.right{left:100%}.react-flow__resize-control.line{border-color:var(--xy-resize-background-color,var(--xy-resize-background-color-default));border-style:solid;border-width:0}.react-flow__resize-control.line.left,.react-flow__resize-control.line.right{width:1px;height:100%;top:0;transform:translate(-50%)}.react-flow__resize-control.line.left{border-left-width:1px;left:0}.react-flow__resize-control.line.right{border-right-width:1px;left:100%}.react-flow__resize-control.line.top,.react-flow__resize-control.line.bottom{width:100%;height:1px;left:0;transform:translateY(-50%)}.react-flow__resize-control.line.top{border-top-width:1px;top:0}.react-flow__resize-control.line.bottom{border-bottom-width:1px;top:100%}.react-flow__edge-textbg{fill:var(--xy-edge-label-background-color,var(--xy-edge-label-background-color-default))}.react-flow__edge-text{fill:var(--xy-edge-label-color,var(--xy-edge-label-color-default))}
 /*$vite$:1*/</style>
 </head>
