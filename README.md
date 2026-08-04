@@ -48,3 +48,23 @@ GH_TOKEN=$(gh auth token -u RagnarPitla) gh repo view RagnarPitla/mia-dev-rag-de
 
 This repository contains only the shareable click-through demo. Project Mia source,
 ALM scripts and environment inventory are intentionally not included here.
+
+## Source of truth - read before rebuilding
+
+`index.html` is the built single-file bundle **and it has been hand-edited since it was
+last generated**, so it no longer matches the console source tree in
+`Project-Kazuki/.ragnar/00MIA-Dev-RAG-Demo-Complete/SOURCE/`. Regenerating the bundle with
+`npm run build:mock` and copying it over `index.html` would destroy that work.
+
+Edit `index.html` directly, or reconcile the bundle back into the source tree first.
+The stale source tree is also why `.mock/smoke.mjs` no longer passes against this bundle -
+that failure is pre-existing and unrelated to any styling change.
+
+## UI conventions
+
+Corner radii follow a fixed 4 / 8 / 12 / 16 / 20 px scale (plus `50%` for avatars and
+`999px` for pills). The tokens `--radius-xs|sm|md|lg` and `--glass-radius*` are aligned to
+that same scale - keep new values on it rather than introducing intermediate radii.
+
+Transitions use `cubic-bezier(.2,0,0,1)` and stay at or below 0.2s. Avoid `transition: all`
+- it animates layout properties and forces reflow; name the properties instead.
